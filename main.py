@@ -20,7 +20,7 @@ class MyParentWindow(QtWidgets.QWidget):
 
         self.visit_in_change_button = 0
 
-        self.dict_color = {"1": "white", "2": "green", "3": "orange", "4": "red", "5": "blue", "6": "violet",
+        self.dict_color = {"1": "white", "2": "#00ff00", "3": "#ff7b00", "4": "red", "5": "#1313ff", "6": "violet",
                            "7": "yellow"}
 
         self.child_window_GameOver = ChildWindowGameOver()
